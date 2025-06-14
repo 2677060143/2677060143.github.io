@@ -34,8 +34,6 @@ defaults:
     layout: tutorials
 - scope:
     path: ''
-  values:
-    image: "/img/jekyll-og.png"
 future: true
 plugins:
 - jekyll-avatar
