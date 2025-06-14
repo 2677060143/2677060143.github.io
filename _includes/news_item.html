@@ -10,7 +10,7 @@
     </span>
   </span>
   <div class="post-meta">
-    <span class="post-date" itemprop="datePublished" content="{{ post.date | date: " %Y-%m-%d" }}">
+    <span class="post-date" itemprop="datePublished" content="{{ post.date | date: '%Y-%m-%d' }}">
       {{- post.date | date_to_string -}}
     </span>
     {% assign author = post.github_username -%}
