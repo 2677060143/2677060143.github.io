@@ -20,7 +20,8 @@
       <a href="https://github.com/{{ author }}" class="post-author" itemprop="author" itemscope
         itemtype="http://schema.org/Person">
         {% avatar user=author size=24 -%}
-        <span class="author-name" itemprop="name">{{ page.author }}</span>
+        {% assign author_name = page.author -%}
+        <span class="author-name" itemprop="name">{{ author_name }}</span>
       </a>
     </div>
   </div>
