@@ -2,6 +2,7 @@
 title: '陈金泉个人信息'
 date: 2025-06-14 15:43:58 -0700
 author: 陈金泉
+github_username: 2677060143
 version: 1.0.0
 categories: [release]
 ---

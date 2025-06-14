@@ -16,8 +16,9 @@
       <span class="post-date" itemprop="datePublished" content="{{ post.date | date: '%Y-%m-%d' }}">
         {{- post.date | date_to_string -}}
       </span>
-      {% assign author = post.author -%}
-      <a href="https://github.com/{{ author }}" class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      {% assign author = post.github_username -%}
+      <a href="https://github.com/{{ author }}" class="post-author" itemprop="author" itemscope
+        itemtype="http://schema.org/Person">
         {% avatar user=author size=24 -%}
         <span class="author-name" itemprop="name">{{ author }}</span>
       </a>
