@@ -14,10 +14,10 @@
       {{- post.date | date_to_string -}}
     </span>
     {% assign author = post.github_username -%}
+    {% assign author_name = page.author -%}
     <a class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person" target="_blank"
       href="https://github.com/{{ author }}">
       {% avatar user=author size=24 -%}
-      {% assign author_name = page.author -%}
       <span class="author-name" itemprop="name">{{ author_name }}</span>
     </a>
   </div>
