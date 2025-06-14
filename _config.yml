@@ -3,9 +3,8 @@ version: 4.3.3
 name: Chenjinquan, Timothy
 description: 24k小金仔的个人博客
 url: https://2677060143.github.io/
-repository: https://github.com/jekyll/jekyll
+repository: https://github.com/2677060143/2677060143.github.io
 timezone: China/GuangXi
-logo: "/img/logo-2x.png"
 collections:
   docs:
     permalink: "/:collection/:path/"
