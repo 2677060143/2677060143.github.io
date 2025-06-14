@@ -22,7 +22,7 @@ categories: [release]
 
 ### 教育经历
 ## 本科
-学校： 湖南大学
+学校： [湖南大学](https://www.hnu.edu.cn/ "湖南大学官网")
 
 专业：软件工程-数字媒体技术
 
@@ -35,7 +35,7 @@ categories: [release]
 
 实验室：院楼574
 
-导师：王伟胜、林红利
+导师：[王伟胜](https://csee.hnu.edu.cn/people/wangweisheng "导师信息")、[林红利](https://csee.hnu.edu.cn/people/linhongli "导师信息")
 
 研究方向：人工智能、语音情感识别
 
