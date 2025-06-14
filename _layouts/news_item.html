@@ -16,11 +16,12 @@ layout: news
     </span>
   </span>
   <div class="post-meta">
-    <span class="post-date" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
+    <span class="post-date" itemprop="datePublished" content="{{ page.date | date: " %Y-%m-%d" }}">
       {{- page.date | date_to_string -}}
     </span>
-    {% assign author = page.author -%}
-    <a class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person" target="_blank" href="https://github.com/{{ author }}">
+    {% assign author = page.github_username -%}
+    <a class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person" target="_blank"
+      href="https://github.com/{{ author }}">
       {% avatar user=author size=24 -%}
       <span class="author-name" itemprop="name">{{ author }}</span>
     </a>
